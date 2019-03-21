@@ -15,14 +15,23 @@ html, body {
 
 .header {
 	text-align: center;
+	padding: 18px 0px 25px 0px;
 }
 
 .header h1 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 6vw;
-	padding-top: 18px;
+	font-weight: 600;
 	padding-bottom: 15px;
 	margin: 0;
+	text-transform: uppercase;
+}
+
+.subtitle {
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	font-size: 4vw;
+	padding-bottom: 15px;
 }
 
 .ampersand {
@@ -35,6 +44,10 @@ nav {
 	justify-content: center;
 }
 
+link {
+	text-decoration: none;
+}
+
 a {
 	text-decoration: none;
 }
@@ -43,11 +56,24 @@ a {
 	outline: none;
 }
 
+.header a {
+	color: #363636;
+}
+
+.header a:hover {
+	color: #363636;
+}
+
 nav a {
 	font-family: 'Raleway', sans-serif;
 	color: #363636;
 	font-size: 18px;
+	font-weight: 600;
 	padding: 0px 15px;
+}
+
+.main-container {
+	padding: 0px 25px 18px 25px;
 }
 
 .email-capture {
@@ -58,16 +84,18 @@ nav a {
 	font-size: 18px;
 	padding-top: 15px;
 	margin: 0;
+	border: none;
 }
 
-::placeholder {
+.email-capture::placeholder {
 	color: #363636;
+	font-weight: 600;
 }
 
-.carousel {
+/*.carousel {
 	padding: 25px 0px 0px 0px;
 	outline: none;
-}
+}*/
 
 .carousel-cell {
 	height: 390px;
@@ -99,7 +127,52 @@ nav a {
 }
 
 .next {
-	left: calc(100vw - 80px);
+	left: calc(100vw - 180px);
+}
+
+.product {
+	display: inline-block;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.product link {
+	color: #363636;
+}
+
+.product a {
+	color: #363636;
+}
+
+.product a:hover {
+	color: #363636;	
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.card-container {
+  padding: 2px 16px;
+}
+
+/*.products .product:nth-child(3n + 4) {
+	margin: 0;
+}*/
+
+.product img {
+	max-width: 100%;
+	height: auto;
 }
 
 .footer {
@@ -111,6 +184,69 @@ nav a {
 .footer-icon {
 	color: #363636;
 	font-size: 25px;
+}
+
+.detailColumns {
+	display: inline-block;
+}
+
+.detailImage {
+	max-width: 100%;
+	height: auto;
+}
+
+.detailButtons {
+	color: white;
+	padding: 12px;
+	border-radius: 8px;
+	background-color: #942D37;
+}
+
+.cart-ul {
+	list-style: none;
+}
+
+.inline {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+label input {
+	display: inline;
+}
+
+.tight-text {
+	margin-bottom: 5px;
+}
+
+.button-black {
+	background: transparent;
+	text-transform: capitalize;
+	color: #363636;
+	border-radius: 0px;
+	border: .5px solid #363636;
+	padding: 12px 18px;
+	margin: 15px 8px 15px 8px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.button-black:hover {
+	background-color: #363636;
+	color: white;
+}
+
+.pad {
+	margin: 0px 5px;
+}
+
+.checkout input  {
+	border: none;
+	border-bottom: .5px solid #363636;
+}
+
+.StripeElement {
+	border-bottom: .5px solid #363636;
 }
 
 @media(min-width: 600px) {

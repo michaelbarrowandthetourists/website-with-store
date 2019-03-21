@@ -37,5 +37,11 @@ module.exports = {
       template: "./src/index.html",
       filename: "./index.html"
     })
-  ]
+  ],
+
+  devServer: {
+    compress: true,
+    disableHostCheck: true,   // That solved it
+    historyApiFallback: true
+  },
 };
