@@ -2,7 +2,7 @@ import React from 'react';
 
 const EmailCapture = () => (
 	<form name="emails" data-netlify="true" netlify-honeypot="bot-field">
-		<input name="bot-field" style="display: none;"/>
+		<input className="hidden" name="bot-field" />
 		<input className="email-capture" type="email" placeholder="ENTER EMAIL FOR UPDATES"></input>
 	</form>
 );
