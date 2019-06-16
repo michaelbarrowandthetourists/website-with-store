@@ -11,7 +11,6 @@ const Tour = () => (
 				  	{
 				  		(value) => {
 				  			const { dates } = value;
-				  			console.log(dates);
 				  			return dates.map(show => {
 				  				return (
 				  					<tr>

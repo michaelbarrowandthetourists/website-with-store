@@ -96,6 +96,15 @@ nav a {
 	font-weight: 600;
 }
 
+.hidden-submit {
+    border: 0 none;
+    height: 0;
+    width: 0;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
 .carousel-cell {
 	height: 390px;
 	width: auto;
