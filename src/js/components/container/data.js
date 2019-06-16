@@ -18,6 +18,18 @@ export const dates = [
 		tickets: ''
 	},
 	{
+		date: "May 31",
+		city: 'South Jordan, UT',
+		venue: 'SoJo Summerfest - 1100 S Redwood Rd',
+		tickets: ''
+	},
+	{
+		date: 'June 8',
+		city: 'Daybreak, UT',
+		venue: 'SoDa Row Summer Concert Series',
+		tickets: ''
+	},
+	{
 		date: "June 10",
 		city: "St. George, UT",
 		venue: "Concert In The Park",
@@ -48,9 +60,27 @@ export const dates = [
 		tickets: ''
 	},
 	{
+		date: 'July 12',
+		city: 'Salt Lake City, UT',
+		venue: 'Hidden Hollow Concert Series',
+		tickets: ''
+	},
+	{
 		date: 'July 15',
 		city: 'Lehi, UT',
 		venue: 'Private Event',
+		tickets: ''
+	},
+	{
+		date: 'July 16',
+		city: 'Provo, UT',
+		venue: 'BYU Highway 89',
+		tickets: ''
+	},
+	{
+		date: 'August 7th',
+		city: 'Logan, UT',
+		venue: 'WhySound',
 		tickets: ''
 	}
 	// {

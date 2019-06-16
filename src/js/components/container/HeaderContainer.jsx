@@ -10,8 +10,10 @@ class Header extends Component {
 
 	render() {
 		return (
-		  <header className="header">
-		    <Link to="/"><h1>Michael Barrow <span className="ampersand">&</span> The Tourists</h1></Link>
+		  <header className="header container">
+		    <Link to="/">
+		    	<img className="u-full-width" src={require('../../../images/widelogo.png')}/>
+		    </Link>
 		    <nav>
 		    	<Link  to="/tour">TOUR</Link>
 		    	<a href="https://michael-barrow-and-the-tourists.square.site/">MERCH</a>

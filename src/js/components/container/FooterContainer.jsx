@@ -9,25 +9,39 @@ class Footer extends Component {
 		return (
 			<footer className="footer">
 				<span className="footer-icon">
-					<i className="fab fa-spotify"></i>
+					<a href="https://open.spotify.com/artist/1mhe70fSiQDyc16JVlhBUE?si=o__TG3NBRSyC9AEEXSaZxQ">
+						<i className="fab fa-spotify"></i>
+					</a>
 				</span>
 				<span className="footer-icon">
-					<i className="fab fa-apple"></i>
+					<a href="https://music.apple.com/us/artist/michael-barrow-the-tourists/1208194094">
+						<i className="fab fa-apple"></i>
+					</a>
 				</span>
 				<span className="footer-icon">
-					<i className="fab fa-instagram"></i>
+					<a href="https://www.instagram.com/michaelbarrowandthetourists/">
+						<i className="fab fa-instagram"></i>
+					</a>
 				</span>
 				<span className="footer-icon">
-					<i className="fab fa-facebook-f"></i>
+					<a href="https://www.facebook.com/michaelbarrowmusic/">
+						<i className="fab fa-facebook-f"></i>
+					</a>
 				</span>
 				<span className="footer-icon">
-					<i className="fab fa-twitter"></i>
+					<a href="https://twitter.com/mb_and_tourists">
+						<i className="fab fa-twitter"></i>
+					</a>
 				</span>
 				<span className="footer-icon">
-					<i className="fab fa-youtube"></i>
+					<a href="https://www.youtube.com/channel/UCHIZ6mN1eJi0oSwNF4NihUA">
+						<i className="fab fa-youtube"></i>
+					</a>
 				</span>
 				<span className="footer-icon">
-					<i className="fab fa-bandcamp"></i>
+					<a href="https://michaelbarrowandthetourists.bandcamp.com/">
+						<i className="fab fa-bandcamp"></i>
+					</a>
 				</span>
 			</footer>
 		);
