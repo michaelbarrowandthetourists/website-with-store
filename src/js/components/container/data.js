@@ -115,7 +115,7 @@ export const dates = [
 	},
 	{
 		date: 'September 28',
-		city: '',
+		city: 'Huntsville, UT',
 		venue: 'Private Event',
 		tickets: ''
 	},
@@ -140,7 +140,7 @@ export const dates = [
 	{
 		date: 'October 16',
 		city: 'Provo, UT',
-		venue: 'Swiss Miss House',
+		venue: 'Swiss Mix House',
 		tickets: ''
 	},
 	{
