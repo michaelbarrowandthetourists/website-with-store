@@ -18,6 +18,12 @@ export const dates = [
 		tickets: ''
 	},
 	{
+		date: 'April 13',
+		city: 'Las Vegas, NV',
+		venue: 'SoFar Secret Show',
+		tickets: ''
+	},
+	{
 		date: "May 31",
 		city: 'South Jordan, UT',
 		venue: 'SoJo Summerfest - 1100 S Redwood Rd',
@@ -55,14 +61,26 @@ export const dates = [
 	},
 	{
 		date: 'July 5',
-		city: 'Eagle Mountain, UT',
-		venue: 'Pony Express Days',
+		city: 'Provo, UT',
+		venue: 'ABGs',
+		tickets: ''
+	},
+	{
+		date: 'July 6',
+		city: 'Boise, ID',
+		venue: 'Private Event',
 		tickets: ''
 	},
 	{
 		date: 'July 12',
 		city: 'Salt Lake City, UT',
 		venue: 'Hidden Hollow Concert Series',
+		tickets: ''
+	},
+	{
+		date: 'July 13',
+		city: 'Lindon, UT',
+		venue: 'Lindon Marina',
 		tickets: ''
 	},
 	{
@@ -78,9 +96,63 @@ export const dates = [
 		tickets: ''
 	},
 	{
-		date: 'August 7th',
+		date: 'August 7',
 		city: 'Logan, UT',
 		venue: 'WhySound',
+		tickets: ''
+	},
+	{
+		date: 'September 14',
+		city: 'Grantsville, UT',
+		venue: 'Lantern Festival',
+		tickets: ''
+	},
+	{
+		date: 'September 27',
+		city: 'Provo, UT',
+		venue: 'The Rise',
+		tickets: ''
+	},
+	{
+		date: 'September 28',
+		city: '',
+		venue: 'Private Event',
+		tickets: ''
+	},
+	{
+		date: 'October 3',
+		city: 'Logan, UT',
+		venue: 'Taggart Student Center USU',
+		tickets: ''
+	},
+	{
+		date: 'October 4',
+		city: 'Seattle, WA',
+		venue: 'SoFar Secret Show',
+		tickets: ''
+	},
+	{
+		date: 'October 5',
+		city: 'Seattle, WA',
+		venue: 'SoFar Secret Show',
+		tickets: ''
+	},
+	{
+		date: 'October 16',
+		city: 'Provo, UT',
+		venue: 'Swiss Miss House',
+		tickets: ''
+	},
+	{
+		date: 'November 15',
+		city: 'Orem, UT',
+		venue: 'The Rise',
+		tickets: ''
+	},
+	{
+		date: 'February 28',
+		city: 'Logan, UT',
+		venue: 'The Cache',
 		tickets: ''
 	}
 	// {

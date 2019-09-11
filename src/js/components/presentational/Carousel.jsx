@@ -1,23 +1,9 @@
 import React from 'react';
-import Flickity from 'react-flickity-component';
-import 'flickity-imagesloaded';
-import PropTypes from 'prop-types';
-
-let flickityOptions = {
-	wrapAround: true,
-	imagesLoaded: true
-};
 
 const Carousel = () => (
-	<Flickity className="carousel"
-		options={flickityOptions}>
-		<img className="carousel-cell" alt="Never Stop Cover Art" src={require('../../../images/neverstop.jpg')}/>
-		<img className="carousel-cell" alt="Juneau Album Art" src={require('../../../images/juneau.jpg')}/>
-		<img className="carousel-cell" alt="Merch" src={require('../../../images/merch.jpg')}/>
-		<img className="carousel-cell" alt="Sweet Honey Cover Art" src={require('../../../images/sweethoney.jpg')}/>
-		<img className="carousel-cell" alt="Band in front of mural street art" src={require('../../../images/peacock.jpg')}/>
-		<img className="carousel-cell" alt="Santa Barbara Sessions Album Art" src={require('../../../images/SBSCover.jpg')}/>
-	</Flickity>
+	<div className="container">
+		<img className="u-full-width" alt="Band Photo" src={require('../../../images/MB&T-92.jpg')}/>
+	</div>
 );
 
 export default Carousel;
