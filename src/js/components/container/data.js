@@ -1,5 +1,63 @@
 export const dates = [
 	{
+		date: "February 28",
+		city: "Las Vegas, NV",
+		venue: "Ferguson's Downtown",
+		tickets:''
+	},
+	{
+		date: "February 28",
+		city: "Las Vegas, NV",
+		venue: "SoFar - Venue TBD",
+		tickets:''
+	},
+	{
+		date: "March 13",
+		city: "Provo, UT",
+		venue: "Velour Live Music Gallery",
+		tickets:''
+	},
+	{
+		date: "March 14",
+		city: "Salt Lake City, UT",
+		venue: "Kilby Court",
+		tickets:''
+	},
+	{
+		date: "April 30",
+		city: "Seattle, WA",
+		venue: "SoFar - Venue TBD",
+		tickets:''
+	},
+	{
+		date: "May 1",
+		city: "Seattle, WA",
+		venue: "SoFar - Venue TBD",
+		tickets:''
+	},
+	{
+		date: "May 2",
+		city: "Seattle, WA",
+		venue: "Tim's Tavern",
+		tickets:''
+	},
+	{
+		date: "June 19",
+		city: "Magna, UT",
+		venue: "Pleasant Green Park",
+		tickets:''
+	}
+];
+		// {
+		// 	date:
+		// 	city:
+		// 	venue:
+		// 	tickets:
+		// }
+
+/* this is almost all of our 2019 dates:
+
+{
 		date: "March 16",
 		city: 'Camas, WA',
 		venue: 'Union High School',
@@ -155,11 +213,4 @@ export const dates = [
 		venue: 'The Cache',
 		tickets: ''
 	}
-	// {
-	// 	date:
-	// 	city:
-	// 	venue:
-	// 	tickets:
-	// }
-];
-
+	*/
