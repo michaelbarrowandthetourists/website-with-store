@@ -12,10 +12,12 @@ class Header extends Component {
 		return (
 		  <header className="header container">
 		    <Link to="/">
-		    	<img className="u-full-width" src={require('../../../images/widelogo.png')}/>
+		    	<img className="u-full-width" src={require('../../../images/widelogo2.png')}/>
 		    </Link>
 		    <nav>
 		    	<Link  to="/tour">TOUR</Link>
+		    	<Link  to="/media">MEDIA</Link>
+		    	<Link  to="/bio">BIO</Link>
 		    	<a href="https://michael-barrow-and-the-tourists.square.site/">MERCH</a>
 		    </nav>
 		    <EmailCapture />

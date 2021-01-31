@@ -13,6 +13,10 @@ html, body {
     overflow-x: hidden;
 }
 
+ul {
+	list-style: none;
+}
+
 .hidden {
 	display: none;
 }
@@ -187,6 +191,32 @@ nav a {
 .card-container {
   padding: 2px 16px;
 }
+
+.spacer {
+	margin-bottom: 45px;
+}
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+  }
+  
+  .grid-block {
+	height: 150px;
+	flex-grow: 1;
+	margin:0;
+  }
+  
+  .grid-block:last-child {
+	flex-grow: 10;
+  }
+  
+  .grid-image {
+	max-height: 100%;
+	min-width: 100%;
+	object-fit: cover;
+	vertical-align: bottom;
+  }
 
 /*.products .product:nth-child(3n + 4) {
 	margin: 0;

@@ -4,6 +4,8 @@ import 'babel-polyfill';
 import ReactDOM from "react-dom";
 import Carousel from "../presentational/Carousel.jsx";
 import Tour from "../presentational/Tour.jsx";
+import Media from "../presentational/Media.jsx";
+import Bio from "../presentational/Bio.jsx";
 
 
 
@@ -16,6 +18,8 @@ class Main extends Component {
 	    		<div className="main-container">
 	    			<Route exact path="/" component={Carousel}/>
 					<Route path="/tour" component={Tour}/>
+					<Route path='/media' component={Media} />
+					<Route path='/bio' component={Bio} />
 	    		</div>
 	    	)
   	}
