@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { dates } from './data.js';
+import { shows } from './data.js';
 
 const ProductContext = React.createContext();
 
@@ -7,7 +7,7 @@ class ProductProvider extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			dates: dates
+			shows: shows
 		}
 	} 
 

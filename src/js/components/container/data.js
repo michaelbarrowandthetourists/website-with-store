@@ -1,53 +1,81 @@
-export const dates = [
+function Show(params) {
+	this.date = params.date;
+	this.city = params.city;
+	this.venue = params.venue;
+	this.tickets = params.tickets;
+	this.past = isInThePast(this.date)
+	this.display = isWithinSixtyDays(this.date)
+}
+
+function isInThePast(date) {
+	const today = new Date();
+	today.setHours(0, 0, 0, 0);
+
+	return date < today;
+}
+
+function isWithinSixtyDays(date) {
+
+	const sixtyDaysInMs = 60 * 24 * 60 * 60 * 1000;
+	const timestampSixtyDaysAgo = new Date().getTime() - sixtyDaysInMs;
+
+	return timestampSixtyDaysAgo < date
+}
+
+const showsData = [
 	{
-		date: "February 28",
-		city: "Las Vegas, NV",
-		venue: "Ferguson's Downtown",
-		tickets:''
+		date: new Date('2022-06-11T20:00:00.000000'),
+		city: 'American Fork, UT',
+		venue: 'Fork Fest - Art Dye Park',
+		tickets: ''
 	},
 	{
-		date: "February 28",
-		city: "Las Vegas, NV",
-		venue: "SoFar - Venue TBD",
-		tickets:''
+		date: new Date('2022-06-18T19:00:00.000000'),
+		city: 'St. Louis, MO',
+		venue: "Liv's Place",
+		tickets: ''
 	},
 	{
-		date: "March 13",
-		city: "Provo, UT",
-		venue: "Velour Live Music Gallery",
-		tickets:''
+		date: new Date('2022-06-19T19:00:00.000000'),
+		city: 'Chicago, IL',
+		venue: "The Burlington Bar",
+		tickets: ''
 	},
 	{
-		date: "March 14",
-		city: "Salt Lake City, UT",
-		venue: "Kilby Court",
-		tickets:''
+		date: new Date('2022-06-22T18:00:00.000000'),
+		city: 'Columbus, OH',
+		venue: 'The Space Bar',
+		tickets: ''
 	},
 	{
-		date: "April 30",
-		city: "Seattle, WA",
-		venue: "SoFar - Venue TBD",
-		tickets:''
+		date: new Date('2022-06-25T17:00:00.000000'),
+		city: "New York, NY",
+		venue: "Rockwood Music Hall",
+		tickets: ''
 	},
 	{
-		date: "May 1",
-		city: "Seattle, WA",
-		venue: "SoFar - Venue TBD",
-		tickets:''
+		date: new Date('2022-06-26T12:00:00.000000'),
+		city: 'Philadelphia, PA',
+		venue: 'The Fire',
+		tickets: ''
 	},
 	{
-		date: "May 2",
-		city: "Seattle, WA",
-		venue: "Tim's Tavern",
-		tickets:''
+		date: new Date('2022-06-30T18:00:00.000000'),
+		city: 'Fredericksburg, VA',
+		venue: "KC's Music Alley",
+		tickets: ''
 	},
 	{
-		date: "June 19",
-		city: "Magna, UT",
-		venue: "Pleasant Green Park",
-		tickets:''
+		date: new Date('2022-07-08T18:00:00.000000'),
+		city: 'Salt Lake City, UT',
+		venue: 'Hangar House',
+		tickets: 'https://tixr.com/pr/MichaelBarrowandtheTourists/40343'
 	}
 ];
+
+export const shows = showsData.map( show => new Show(show));
+
+
 		// {
 		// 	date:
 		// 	city:
@@ -57,7 +85,7 @@ export const dates = [
 
 /* this is almost all of our 2019 dates:
 
-{
+	{
 		date: "March 16",
 		city: 'Camas, WA',
 		venue: 'Union High School',
@@ -212,5 +240,53 @@ export const dates = [
 		city: 'Logan, UT',
 		venue: 'The Cache',
 		tickets: ''
+	}
+	{
+		date: "February 28",
+		city: "Las Vegas, NV",
+		venue: "Ferguson's Downtown",
+		tickets:''
+	},
+	{
+		date: "February 28",
+		city: "Las Vegas, NV",
+		venue: "SoFar - Venue TBD",
+		tickets:''
+	},
+	{
+		date: "March 13",
+		city: "Provo, UT",
+		venue: "Velour Live Music Gallery",
+		tickets:''
+	},
+	{
+		date: "March 14",
+		city: "Salt Lake City, UT",
+		venue: "Kilby Court",
+		tickets:''
+	},
+	{
+		date: "April 30",
+		city: "Seattle, WA",
+		venue: "SoFar - Venue TBD",
+		tickets:''
+	},
+	{
+		date: "May 1",
+		city: "Seattle, WA",
+		venue: "SoFar - Venue TBD",
+		tickets:''
+	},
+	{
+		date: "May 2",
+		city: "Seattle, WA",
+		venue: "Tim's Tavern",
+		tickets:''
+	},
+	{
+		date: "June 19",
+		city: "Magna, UT",
+		venue: "Pleasant Green Park",
+		tickets:''
 	}
 	*/

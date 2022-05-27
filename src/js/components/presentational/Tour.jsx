@@ -1,6 +1,12 @@
 import React from 'react';
 import { ProductConsumer } from '../container/context.jsx';
 
+const dateDisplayOptions = {
+	year: 'numeric',
+	month: 'long',
+	day: 'numeric',
+}
+
 const Tour = () => (
 	<div className='container'>
 		<table className="u-full-width">
@@ -10,13 +16,15 @@ const Tour = () => (
 				<ProductConsumer>
 				  	{
 				  		(value) => {
-				  			const { dates } = value;
-				  			return dates.map(show => {
+				  			const { shows } = value;
+							  const filteredShows = shows.filter( show => show.display)
+				  			return filteredShows.map(show => {
 				  				return (
-				  					<tr>
-				  						<td>{show.date}</td>
+				  					<tr className={show.past && 'pastShow'} >
+				  						<td>{show.date.toLocaleDateString('en-US', dateDisplayOptions)}</td>
 				  						<td>{show.city}</td>
 				  						<td>{show.venue}</td>
+										{show.tickets && <td><a href={show.past || show.tickets}>Get Tickets</a></td>}
 				  					</tr>
 				  				)
 				  			})

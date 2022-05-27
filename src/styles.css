@@ -307,6 +307,10 @@ label input {
 	border-bottom: .5px solid #363636;
 }
 
+.pastShow {
+	text-decoration: line-through;
+}
+
 @media(min-width: 600px) {
 	.header h1 {
 		font-size: 5vw;
