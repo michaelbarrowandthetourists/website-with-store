@@ -66,10 +66,10 @@ const showsData = [
 		tickets: ''
 	},
 	{
-		date: new Date('2022-07-08T18:00:00.000000'),
-		city: 'Salt Lake City, UT',
-		venue: 'Hangar House',
-		tickets: 'https://tixr.com/pr/MichaelBarrowandtheTourists/40343'
+		date: new Date('2022-07-02T18:00:00.000000'),
+		city: 'Athens, GA',
+		venue: 'The Foundry',
+		tickets: 'https://michael-barrow-and-the-tourists.square.site/product/michael-barrow-and-the-tourists-athens-ga/13?cs=true&cst=custom'
 	}
 ];
 

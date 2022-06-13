@@ -18,7 +18,7 @@ class Header extends Component {
 		    	<Link  to="/tour">TOUR</Link>
 		    	<Link  to="/media">MEDIA</Link>
 		    	<Link  to="/bio">BIO</Link>
-		    	<a href="https://michael-barrow-and-the-tourists.square.site/">MERCH</a>
+		    	<a href="https://michael-barrow-and-the-tourists.square.site/">STORE</a>
 		    </nav>
 		    <EmailCapture />
 		  </header>
