@@ -66,10 +66,22 @@ const showsData = [
 		tickets: ''
 	},
 	{
+		date: new Date('2022-07-01T17:00:00.000000'),
+		city: 'Nashville, TN',
+		venue: 'Bold Patriot Brewing',
+		tickets: ''
+	},
+	{
 		date: new Date('2022-07-02T18:00:00.000000'),
 		city: 'Athens, GA',
 		venue: 'The Foundry',
 		tickets: 'https://michael-barrow-and-the-tourists.square.site/product/michael-barrow-and-the-tourists-athens-ga/13?cs=true&cst=custom'
+	},
+	{
+		date: new Date('2022-07-09T18:00:00.000000'),
+		city: 'Provo, UT',
+		venue: 'Rock Canyon Amphitheater',
+		tickets: 'https://www.eventbrite.com/e/in-the-canyon-tickets-364241645567'
 	}
 ];
 
