@@ -82,7 +82,44 @@ const showsData = [
 		city: 'Provo, UT',
 		venue: 'Rock Canyon Amphitheater',
 		tickets: 'https://www.eventbrite.com/e/in-the-canyon-tickets-364241645567'
+	},
+	{
+		date: new Date('2022-07-27T18:00:00.000000'),
+		city: 'Orem, UT',
+		venue: 'Classic Skating and Fun Center',
+		tickets: ''
+	},
+	{
+		date: new Date('2022-08-11T18:00:00.000000'),
+		city: 'Price, UT',
+		venue: 'Peace Garden Concert Series',
+		tickets: ''
+	},
+	{
+		date: new Date('2022-09-15T18:00:00.000000'),
+		city: 'Bountiful, UT',
+		venue: 'Bountiful City Park',
+		tickets: ''
+	},
+	{
+		date: new Date('2022-09-16T18:00:00.000000'),
+		city: 'Salt Lake City, UT',
+		venue: 'Utah State Fair',
+		tickets: ''
+	},
+	{
+		date: new Date('2022-09-28T18:00:00.000000'),
+		city: 'Salt Lake City, UT',
+		venue: 'The Front',
+		tickets: ''
+	},
+	{
+		date: new Date('2022-10-07T18:00:00.000000'),
+		city: 'Provo, UT',
+		venue: 'BYU Museum of Art - Art After Dark',
+		tickets: ''
 	}
+
 ];
 
 export const shows = showsData.map( show => new Show(show));
