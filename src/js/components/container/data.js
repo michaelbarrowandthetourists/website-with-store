@@ -24,102 +24,32 @@ function isWithinSixtyDays(date) {
 
 const showsData = [
 	{
-		date: new Date('2022-06-11T20:00:00.000000'),
-		city: 'American Fork, UT',
-		venue: 'Fork Fest - Art Dye Park',
+		date: new Date('2023-08-19T20:00:00.000000'),
+		city: 'Helper, UT',
+		venue: 'Helper Arts Festival',
 		tickets: ''
 	},
-	{
-		date: new Date('2022-06-18T19:00:00.000000'),
-		city: 'St. Louis, MO',
-		venue: "Liv's Place",
-		tickets: ''
-	},
-	{
-		date: new Date('2022-06-19T19:00:00.000000'),
-		city: 'Chicago, IL',
-		venue: "The Burlington Bar",
-		tickets: ''
-	},
-	{
-		date: new Date('2022-06-22T18:00:00.000000'),
-		city: 'Columbus, OH',
-		venue: 'The Space Bar',
-		tickets: ''
-	},
-	{
-		date: new Date('2022-06-25T17:00:00.000000'),
-		city: "New York, NY",
-		venue: "Rockwood Music Hall",
-		tickets: ''
-	},
-	{
-		date: new Date('2022-06-26T12:00:00.000000'),
-		city: 'Philadelphia, PA',
-		venue: 'The Fire',
-		tickets: ''
-	},
-	{
-		date: new Date('2022-06-30T18:00:00.000000'),
-		city: 'Fredericksburg, VA',
-		venue: "KC's Music Alley",
-		tickets: ''
-	},
-	{
-		date: new Date('2022-07-01T17:00:00.000000'),
-		city: 'Nashville, TN',
-		venue: 'Bold Patriot Brewing',
-		tickets: ''
-	},
-	{
-		date: new Date('2022-07-02T18:00:00.000000'),
-		city: 'Athens, GA',
-		venue: 'The Foundry',
-		tickets: 'https://michael-barrow-and-the-tourists.square.site/product/michael-barrow-and-the-tourists-athens-ga/13?cs=true&cst=custom'
-	},
-	{
-		date: new Date('2022-07-09T18:00:00.000000'),
-		city: 'Provo, UT',
-		venue: 'Rock Canyon Amphitheater',
-		tickets: 'https://www.eventbrite.com/e/in-the-canyon-tickets-364241645567'
-	},
-	{
-		date: new Date('2022-07-27T18:00:00.000000'),
-		city: 'Orem, UT',
-		venue: 'Classic Skating and Fun Center',
-		tickets: ''
-	},
-	{
-		date: new Date('2022-08-11T18:00:00.000000'),
-		city: 'Price, UT',
-		venue: 'Peace Garden Concert Series',
-		tickets: ''
-	},
-	{
-		date: new Date('2022-09-15T18:00:00.000000'),
-		city: 'Bountiful, UT',
-		venue: 'Bountiful City Park',
-		tickets: ''
-	},
-	{
-		date: new Date('2022-09-16T18:00:00.000000'),
-		city: 'Salt Lake City, UT',
-		venue: 'Utah State Fair',
-		tickets: ''
-	},
-	{
-		date: new Date('2022-09-28T18:00:00.000000'),
-		city: 'Salt Lake City, UT',
-		venue: 'The Front',
-		tickets: ''
-	},
-	{
-		date: new Date('2022-10-07T18:00:00.000000'),
-		city: 'Provo, UT',
-		venue: 'BYU Museum of Art - Art After Dark',
-		tickets: ''
-	}
 
+	{
+		date: new Date('2023-08-31T20:00:00.000000'),
+		city: 'Salt Lake City, UT',
+		venue: 'Kilby Court',
+		tickets: 'https://www.24tix.com/event/1275500663/michael-barrow-+-rally'
+	},
+
+	{
+		date: new Date('2023-09-15T20:00:00.000000'),
+		city: 'Provo, UT',
+		venue: 'Velour Live Music Gallery',
+		tickets: ''
+	},
+
+	{
+		date: new Date('2023-09-23T17:00:00.000000'),
+		city: 'Tooele, UT',
+		venue: 'Deseret Peak Complex - Lantern Festival',
+		tickets: 'https://www.nightlightsevent.com/events/deseret-peak-complex-fall-1'
+	},
 ];
 
 export const shows = showsData.map( show => new Show(show));
